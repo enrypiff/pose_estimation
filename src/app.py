@@ -45,7 +45,7 @@ def is_wrist_ergonomic(landmarks, image_width, image_height):
 @app.route('/', methods=['GET'])
 def home():
     return '''<h1>Test</h1>
-                <p>A flask api implementation for book information.   </p>'''
+                <p>A flask api implementation   </p>'''
 
 
 @app.route('/check_ergonomics', methods=['POST'])
